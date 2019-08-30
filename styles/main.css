@@ -6,7 +6,11 @@
 .slider__tape{
     display: flex;
     align-items: flex-start;
-    transition: transform 1s ease-in-out;
+    transition: transform .3s ease-in-out;
+}
+
+.slider__tape--inactive{
+    transition: none;
 }
 
 .slider__img{
