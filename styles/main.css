@@ -5,6 +5,7 @@
 
 .slider__tape{
     display: flex;
+    align-items: flex-start;
     transition: transform 1s ease-in-out;
 }
 
