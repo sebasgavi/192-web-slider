@@ -1,0 +1,13 @@
+
+.slider{
+    overflow: hidden;
+}
+
+.slider__tape{
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slider__img{
+    width: 100%;
+}
