@@ -1,3 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding-top: 40px;
+}
 
 .slider{
     overflow: hidden;
@@ -15,4 +23,25 @@
 
 .slider__img{
     width: 100%;
+}
+
+
+.mainnav{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    transition: background-color .5s ease;
+}
+
+.mainnav--scrolled{
+    background-color: chocolate;
+}
+
+.mainnav__item{
+
+}
+
+.mainnav__item--active{
+    color: white;
 }
