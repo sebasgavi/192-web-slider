@@ -68,6 +68,14 @@ function handleLoad() {
         //console.log(window.scrollY);
     }
     window.addEventListener('scroll', handleScroll);
+
+    var range = document.querySelector('input');
+    var rangeText = document.querySelector('.range__text');
+    function handleRange(){
+        slider.style.opacity = range.value / 100;
+        rangeText.innerText = range.value + '%';
+    }
+    range.addEventListener('input', handleRange);
 }
 
 window.addEventListener('load', handleLoad);
